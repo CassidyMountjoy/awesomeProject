@@ -4,14 +4,24 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node app/js-odbc-test.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app/fileStorage.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "mdb-server": "^1.0.3"
-  }
+    "google-protobuf": "^3.20.0",
+    "grpc": "^1.24.11",
+    "mdb-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CassidyMountjoy/awesomeProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CassidyMountjoy/awesomeProject/issues"
+  },
+  "homepage": "https://github.com/CassidyMountjoy/awesomeProject#readme",
+  "description": ""
 }
